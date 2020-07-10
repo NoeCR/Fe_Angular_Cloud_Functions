@@ -10,7 +10,7 @@ import { IGame } from 'src/app/interfaces/interfaces';
 })
 export class HomeComponent implements OnInit {
 
-  games = [];
+  games: any[] = [];
   constructor(private firestore: AngularFirestore) { }
 
   ngOnInit() {
